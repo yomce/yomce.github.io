@@ -39,20 +39,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
-    # - https://github.com/yomce # change to your GitHub homepage
+    - https://github.com/yomce # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
-
-    - label: GitHub
-      icon: "fab fa-github"
-      url: https://github.com/yomce
-    - label: Instagram
-      icon: "fab fa-instagram"
-      url: https://instagram.com/be_yomce
-    - label: Email
-      icon: "fas fa-envelope"
-      url: mailto:kky032911@gmail.com
 
 # Site Verification Settings
 webmaster_verifications:
@@ -178,10 +168,6 @@ kramdown:
       start_line: 1
 
 collections:
-  posts:
-    output: true
-    permalink: /posts/:title/
-
   tabs:
     output: true
     sort_by: order
@@ -239,7 +225,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-#---------구글 데이터 분석기----------------
-google_analytics:
-  id: "G-H9HKS87TBZ" # GA4 또는 UA 코드
